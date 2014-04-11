@@ -1,3 +1,4 @@
+require 'rubygems/user_interaction'
 
 module Gem
   pre_install do |gem_installer|
