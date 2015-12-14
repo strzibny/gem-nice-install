@@ -1,4 +1,5 @@
-require 'yaml'
+Gem.load_yaml
+
 module Gem::Installer::Nice
   class BaseExtInstaller
     include Gem::UserInteraction
